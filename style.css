@@ -117,6 +117,7 @@ p {
 
 .header a {
     cursor: pointer;
+    text-decoration: none;
 
 }
 
