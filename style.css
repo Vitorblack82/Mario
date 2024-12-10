@@ -145,12 +145,12 @@ p {
     background-color: white;
     position: fixed;
     flex-direction: column;
-
     gap: 20px;
     border-radius: 5px;
     padding: 20px;
     top: 30%;
     left: -300px;
+    transition: left 1s ease-in-out;
 
 }
 
@@ -173,10 +173,12 @@ textarea {
 }
 
 
-/*.mascara-formulario {
+.mascara-formulario {
+    visibility: hidden;
     height: 100vh;
     width: 100vw;
     position: fixed;
-   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-     
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+   top: 0;
+   transition: visibility 1s ease-in-out;
 }
