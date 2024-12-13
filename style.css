@@ -109,8 +109,8 @@ p {
 
 .header img {
     height: 60px;
-    
-    
+
+
 }
 
 .whatsapp:active {
@@ -120,7 +120,7 @@ p {
 .header a {
     cursor: pointer;
     text-decoration: none;
-    
+
 
 }
 
@@ -128,6 +128,7 @@ p {
     color: #cd021c;
     font-size: 26px;
     transition: 0.5s ease-in-out;
+    
 
 }
 
@@ -198,6 +199,7 @@ textarea {
         height: auto;
 
     }
+
     .header a:hover {
         font-size: 20px;
     }
@@ -205,10 +207,11 @@ textarea {
     .caixa-mae {
         flex-direction: column;
         padding: 10px;
-        
+
     }
+
     .container-1 {
-       
+
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -218,22 +221,24 @@ textarea {
     .header img {
         display: none;
     }
+
     .header {
         font-size: 20px;
         display: flex;
         align-items: center;
-justify-content:center;
+        justify-content: center;
     }
-    
-    
+
+
 }
+
 @media(max-width:410px) {
 
     .header {
         font-size: 17px;
     }
+
     .header a:hover {
         font-size: 17px;
     }
-}   
-
+}
