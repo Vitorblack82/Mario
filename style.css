@@ -109,6 +109,8 @@ p {
 
 .header img {
     height: 60px;
+    
+    
 }
 
 .whatsapp:active {
@@ -118,6 +120,7 @@ p {
 .header a {
     cursor: pointer;
     text-decoration: none;
+    
 
 }
 
@@ -162,6 +165,7 @@ input {
     border: 1px solid gray;
     padding: 10px;
     outline-color: #204c96;
+
 }
 
 textarea {
@@ -180,6 +184,56 @@ textarea {
     width: 100vw;
     position: fixed;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
-   top: 0;
-   transition: visibility 1s ease-in-out;
+    top: 0;
+    transition: visibility 1s ease-in-out;
 }
+
+@media (max-width:1000px) {
+    p {
+        display: none;
+    }
+
+    .mario-luigi {
+        width: 80vw;
+        height: auto;
+
+    }
+    .header a:hover {
+        font-size: 20px;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+    .container-1 {
+       
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .header img {
+        display: none;
+    }
+    .header {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+justify-content:center;
+    }
+    
+    
+}
+@media(max-width:410px) {
+
+    .header {
+        font-size: 17px;
+    }
+    .header a:hover {
+        font-size: 17px;
+    }
+}   
+
