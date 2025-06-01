@@ -29,6 +29,7 @@
 body {
 
     height: 100vh;
+      overflow: hidden;
 
 }
 
@@ -232,7 +233,7 @@ textarea {
 
 }
 
-@media(max-width:410px) {
+@media(max-width:424px) {
 
     .header {
         font-size: 17px;
