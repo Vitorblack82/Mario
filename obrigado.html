@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado!</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .caixa-video video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .mascara {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+            z-index: -1;
+        }
+
+        .container-obrigado {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container-obrigado img {
+            width: 120px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            max-width: 600px;
+            margin-bottom: 30px;
+        }
+
+        .botao-voltar {
+            background-color: #c51111;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .botao-voltar:hover {
+            background-color: #8f0e0e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="caixa-video">
+        <video src="vid/video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="mascara"></div>
+
+    <div class="container-obrigado">
+        <img src="img/logo.png" alt="Logo Mario">
+        <h1>Obrigado pelo seu contato!</h1>
+        <p>Recebemos sua mensagem e em breve os irmãos Mario entrarão em ação. Até logo!</p>
+        <a href="/Mario/index.html" class="botao-voltar">Voltar para o Início</a>
+    </div>
+
+</body>
+</html>
